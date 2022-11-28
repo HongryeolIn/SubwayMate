@@ -44,7 +44,7 @@
       android:layout_height="234dp"
       android:layout_marginStart="54dp"
       android:layout_marginEnd="48dp"
-      android:layout_marginBottom="170dp"
+      android:layout_marginBottom="200dp"
       android:background="@drawable/round_layout"
       android:orientation="vertical"
       app:layout_constraintBottom_toBottomOf="parent"
