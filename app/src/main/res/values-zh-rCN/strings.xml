@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SubwayMateUI</string>
+    <string name="title_home">主屏幕</string>
+    <string name="title_community">社区</string>
+    <string name="title_statistics">统计数据</string>
+    <string name="title_settings">布景</string>
+    <string name="title_language_settings">语言设定</string>
+</resources>
