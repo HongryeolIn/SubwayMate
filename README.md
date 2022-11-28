@@ -7,7 +7,7 @@
 
 ## 사용 기술
  - JAVA
- - MySQL(?)
+ - 등등
  
  ## 동작 운영체제
  Android
