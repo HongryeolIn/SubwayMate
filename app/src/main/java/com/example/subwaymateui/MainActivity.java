@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        ThemeUtil.applyTheme(ThemeUtil.modLoad(MainActivity.this));
+
         LocaleHelper.preferences = getSharedPreferences(LocaleHelper.FILE_NAME, Activity.MODE_PRIVATE);
         LocaleHelper.setLocale(MainActivity.this, LocaleHelper.preferences.getString(LocaleHelper.SELECTED_LANGUAGE, "ko"));
 
