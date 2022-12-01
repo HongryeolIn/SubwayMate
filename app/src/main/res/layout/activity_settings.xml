@@ -16,7 +16,7 @@
       android:layout_marginEnd="8dp"
       android:layout_marginBottom="134dp"
       android:background="@android:color/transparent"
-      android:src="@drawable/ic_dashboard_black_24dp"
+      android:src="@drawable/back48x48"
       app:layout_constraintBottom_toTopOf="@+id/settings_update_button"
       app:layout_constraintEnd_toStartOf="@+id/textView"
       app:layout_constraintStart_toStartOf="parent"
