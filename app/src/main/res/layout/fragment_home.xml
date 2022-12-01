@@ -60,7 +60,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/circle_button"
                 android:scaleType="centerInside"
-                android:src="@android:drawable/ic_dialog_info" />
+                android:src="@drawable/setting" />
 
         </LinearLayout>
 
