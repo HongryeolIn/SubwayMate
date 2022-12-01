@@ -8,11 +8,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="main_color">#3B8FD6</color>
-    <color name="settings_background">#E8E9E9E9</color>
+    <color name="settings_background">#E8272727</color>
     <color name="bottom_nav_item_background">#2F7ABA</color>
-    <color name="round_layout_background">#FFFFFF</color>
-    <color name="radio_button_tint">#3A3A3A</color>
-    <color name="ripple_background">#FFFFFF</color>
-    <color name="text">#000000</color>
+    <color name="round_layout_background">#434343</color>
+    <color name="radio_button_tint">#DADADA</color>
+    <color name="ripple_background">#434343</color>
+    <color name="text">#BBBBBB</color>
     <color name="ripple_effect">#CDCDCD</color>
 </resources>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
-    android:color="#CACACA">
+    android:color="@color/ripple_effect">
     <item android:id="@android:id/mask">
         <shape android:shape="rectangle">
-            <solid android:color="#CACACA" />
+            <solid android:color="#E1E1E1" />
             <corners android:radius="5dp" />
         </shape>
     </item>
     <item android:id="@android:id/background">
         <shape android:shape="rectangle">
-            <solid android:color="#FFFFFF" />
+            <solid android:color="@color/ripple_background" />
             <corners android:radius="2dp" />
         </shape>
 

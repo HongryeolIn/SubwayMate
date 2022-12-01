@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white_gray"
+    android:background="@color/settings_background"
     tools:context=".Settings">
 
   <ImageButton
@@ -68,7 +68,7 @@
         android:paddingHorizontal="5dp"
         android:text="언어 설정"
         android:textAlignment="viewStart"
-        android:textColor="@color/black"
+        android:textColor="@color/text"
 
         android:textStyle="bold" />
 
@@ -90,7 +90,7 @@
         android:paddingHorizontal="5dp"
         android:text="업데이트 설정"
         android:textAlignment="viewStart"
-        android:textColor="@color/black"
+        android:textColor="@color/text"
         android:textStyle="bold" />
 
     <ImageView
@@ -111,7 +111,7 @@
         android:paddingHorizontal="5dp"
         android:text="제외할 노선"
         android:textAlignment="viewStart"
-        android:textColor="@color/black"
+        android:textColor="@color/text"
         android:textStyle="bold" />
 
     <Space
@@ -145,6 +145,7 @@
       <RadioButton
           android:id="@+id/settings_theme_light"
           android:layout_width="wrap_content"
+          android:buttonTint="@color/radio_button_tint"
           android:layout_height="wrap_content" />
 
       <Space
@@ -155,6 +156,7 @@
       <RadioButton
           android:id="@+id/settings_theme_dark"
           android:layout_width="wrap_content"
+          android:buttonTint="@color/radio_button_tint"
           android:layout_height="wrap_content" />
     </RadioGroup>
 
