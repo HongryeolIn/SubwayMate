@@ -13,7 +13,7 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <item name="android:windowBackground">#000000</item>
+        <item name="android:windowBackground">#757575</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowSplashScreenBackground">@color/main_color</item>

@@ -66,6 +66,8 @@
                 android:paddingHorizontal="5dp"
                 android:text="한국어"
                 android:textAlignment="textStart"
+                android:textColor="@color/text"
+                android:buttonTint="@color/radio_button_tint"
                 android:textSize="20sp" />
 
             <ImageView
@@ -84,8 +86,10 @@
                 android:layout_marginVertical="5dp"
                 android:layoutDirection="rtl"
                 android:paddingHorizontal="5dp"
-                android:text="영어"
+                android:text="English"
                 android:textAlignment="textStart"
+                android:textColor="@color/text"
+                android:buttonTint="@color/radio_button_tint"
                 android:textSize="20sp" />
 
             <ImageView
@@ -104,8 +108,10 @@
                 android:layout_marginVertical="5dp"
                 android:layoutDirection="rtl"
                 android:paddingHorizontal="5dp"
-                android:text="일본어"
+                android:text="日语 "
                 android:textAlignment="textStart"
+                android:textColor="@color/text"
+                android:buttonTint="@color/radio_button_tint"
                 android:textSize="20sp" />
 
             <ImageView
@@ -125,7 +131,9 @@
                 android:layout_marginVertical="5dp"
                 android:layoutDirection="rtl"
                 android:paddingHorizontal="5dp"
-                android:text="중국어"
+                android:textColor="@color/text"
+                android:buttonTint="@color/radio_button_tint"
+                android:text="中文"
                 android:textAlignment="textStart"
                 android:textSize="20sp" />
         </RadioGroup>

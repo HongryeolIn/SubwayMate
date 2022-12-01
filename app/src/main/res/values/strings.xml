@@ -5,4 +5,7 @@
     <string name="title_statistics">Statistics</string>
     <string name="title_settings">Settings</string>
     <string name="title_language_settings">Language</string>
+    <string name="settings_language">언어 설정</string>
+    <string name="settings_update">업데이트 설정</string>
+    <string name="settings_excludeRoute">제외할 노선</string>
 </resources>

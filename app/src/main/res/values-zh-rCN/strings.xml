@@ -6,4 +6,7 @@
     <string name="title_statistics">统计数据</string>
     <string name="title_settings">布景</string>
     <string name="title_language_settings">语言设定</string>
+    <string name="settings_language">语言设定</string>
+    <string name="settings_update">更新设置</string>
+    <string name="settings_excludeRoute">要排除的行</string>
 </resources>

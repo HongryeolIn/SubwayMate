@@ -6,4 +6,7 @@
     <string name="title_statistics">統計</string>
     <string name="title_settings">設定</string>
     <string name="title_language_settings">言語設定</string>
+    <string name="settings_language">言語設定</string>
+    <string name="settings_excludeRoute">除外するルート</string>
+    <string name="settings_update">アップデート設定</string>
 </resources>

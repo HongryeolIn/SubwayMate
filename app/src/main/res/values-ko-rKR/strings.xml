@@ -6,4 +6,7 @@
     <string name="title_settings">환경 설정</string>
     <string name="title_statistics">통계</string>
     <string name="title_language_settings">언어 설정</string>
+    <string name="settings_language">언어 설정</string>
+    <string name="settings_update">업데이트 설정</string>
+    <string name="settings_excludeRoute">제외할 노선</string>
 </resources>

@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(isFirst == true) {
             //to apply current language or theme at the first run
-            Log.d("isFirst: true", "onCreate: in isFirst==true conditional statement");
+            Log.d("isFirst: true", "onCreate: in isFirst==true conditional statement!@#@!$!@$@!");
             isFirst = false;
             recreate();
         }
@@ -57,17 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        final long finishtimeed = 1000;
-        long presstime = 0;
-        long tempTime = System.currentTimeMillis();
-        long intervalTime = tempTime - presstime;
-
-        if (0 <= intervalTime && finishtimeed >= intervalTime)
-            finish();
-        else {
-            presstime = tempTime;
-            Toast.makeText(getApplicationContext(), "한번더 누르시면 앱이 종료됩니다", Toast.LENGTH_SHORT).show();
-        }
+        //뒤로가기 두번 누르면 종료기능 구현 예정
     }
 
 }
