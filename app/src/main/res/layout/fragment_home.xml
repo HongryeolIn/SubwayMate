@@ -28,9 +28,9 @@
                 android:layout_height="match_parent"
                 android:layout_margin="15dp"
                 android:layout_weight="1"
-                android:background="@drawable/circle_button"
+                android:background=""
                 android:scaleType="centerInside"
-                android:src="@drawable/ic_notifications_black_24dp" />
+                android:src="@drawable/icon_announcement" />
 
             <Space
                 android:layout_width="wrap_content"
@@ -58,7 +58,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="15dp"
                 android:layout_weight="1"
-                android:background="@drawable/circle_button"
+                android:background=""
                 android:scaleType="centerInside"
                 android:src="@drawable/icon_setting" />
 
