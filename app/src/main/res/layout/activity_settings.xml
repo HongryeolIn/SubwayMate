@@ -52,7 +52,7 @@
 
     <RadioGroup
         android:id="@+id/settings_theme_radioGroup"
-        android:layout_width="220dp"
+        android:layout_width="218dp"
         android:layout_height="30dp"
         android:layout_marginBottom="10dp"
         android:orientation="horizontal"
