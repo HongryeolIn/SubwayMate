@@ -15,4 +15,5 @@
     <color name="ripple_background">#434343</color>
     <color name="text">#BBBBBB</color>
     <color name="ripple_effect">#CDCDCD</color>
+    <color name="windowBackground">#7C96C8</color>
 </resources>
