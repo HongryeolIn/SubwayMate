@@ -28,7 +28,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="15dp"
                 android:layout_weight="1"
-                android:background=""
+                android:background="@android:color/transparent"
                 android:scaleType="centerInside"
                 android:src="@drawable/icon_announcement" />
 
@@ -58,7 +58,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="15dp"
                 android:layout_weight="1"
-                android:background=""
+                android:background="@android:color/transparent"
                 android:scaleType="centerInside"
                 android:src="@drawable/icon_setting" />
 
