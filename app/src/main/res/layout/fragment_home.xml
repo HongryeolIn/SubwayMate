@@ -67,11 +67,14 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="370dp"
+            android:layout_height="276dp"
+            android:padding="2dp"
+            android:layout_margin="5dp"
             android:src="@drawable/station" />
 
         <WebView
             android:id="@+id/fragment_home_weather_webView"
+            android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
