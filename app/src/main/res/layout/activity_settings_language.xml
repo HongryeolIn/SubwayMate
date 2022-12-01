@@ -34,12 +34,12 @@
         app:layout_constraintTop_toTopOf="@+id/settings_language_back_button" />
 
     <LinearLayout
-        android:layout_width="342dp"
-        android:layout_height="275dp"
-        android:layout_marginStart="38dp"
-        android:layout_marginTop="74dp"
-        android:layout_marginEnd="31dp"
-        android:layout_marginBottom="339dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="433dp"
         android:background="@drawable/round_layout"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,7 +49,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="40dp" />
+            android:layout_height="20dp" />
 
         <RadioGroup
             android:id="@+id/settings_language_radioGroup"
@@ -63,12 +63,12 @@
                 android:layout_gravity="start"
                 android:layout_marginHorizontal="15dp"
                 android:layout_marginVertical="5dp"
+                android:buttonTint="@color/radio_button_tint"
                 android:layoutDirection="rtl"
                 android:paddingHorizontal="5dp"
                 android:text="한국어"
                 android:textAlignment="textStart"
                 android:textColor="@color/text"
-                android:buttonTint="@color/radio_button_tint"
                 android:textSize="18sp" />
 
             <ImageView
@@ -76,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_marginHorizontal="10dp"
-                app:srcCompat="@drawable/black_space" />
+                app:srcCompat="@drawable/space" />
 
             <RadioButton
                 android:id="@+id/settings_language_English_radio"
@@ -85,12 +85,12 @@
                 android:layout_gravity="start"
                 android:layout_marginHorizontal="15dp"
                 android:layout_marginVertical="5dp"
+                android:buttonTint="@color/radio_button_tint"
                 android:layoutDirection="rtl"
                 android:paddingHorizontal="5dp"
                 android:text="English"
                 android:textAlignment="textStart"
                 android:textColor="@color/text"
-                android:buttonTint="@color/radio_button_tint"
                 android:textSize="18sp" />
 
             <ImageView
@@ -98,7 +98,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_marginHorizontal="10dp"
-                app:srcCompat="@drawable/black_space" />
+                app:srcCompat="@drawable/space" />
 
             <RadioButton
                 android:id="@+id/settings_language_Japanese_radio"
@@ -107,12 +107,12 @@
                 android:layout_gravity="start"
                 android:layout_marginHorizontal="15dp"
                 android:layout_marginVertical="5dp"
+                android:buttonTint="@color/radio_button_tint"
                 android:layoutDirection="rtl"
                 android:paddingHorizontal="5dp"
                 android:text="日语 "
                 android:textAlignment="textStart"
                 android:textColor="@color/text"
-                android:buttonTint="@color/radio_button_tint"
                 android:textSize="18sp" />
 
             <ImageView
@@ -121,7 +121,7 @@
                 android:layout_height="2dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                app:srcCompat="@drawable/black_space" />
+                app:srcCompat="@drawable/space" />
 
             <RadioButton
                 android:id="@+id/settings_language_Chinese_radio"
@@ -130,18 +130,18 @@
                 android:layout_gravity="start"
                 android:layout_marginHorizontal="15dp"
                 android:layout_marginVertical="5dp"
+                android:buttonTint="@color/radio_button_tint"
                 android:layoutDirection="rtl"
                 android:paddingHorizontal="5dp"
-                android:textColor="@color/text"
-                android:buttonTint="@color/radio_button_tint"
                 android:text="中文"
                 android:textAlignment="textStart"
+                android:textColor="@color/text"
                 android:textSize="18sp" />
         </RadioGroup>
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="40dp" />
+            android:layout_height="20dp" />
 
     </LinearLayout>
 
