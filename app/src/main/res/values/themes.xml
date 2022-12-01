@@ -15,5 +15,11 @@
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowSplashScreenBackground">@color/main_color</item>
     </style>
+    <style name="Theme.SubwayMateUI.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.SubwayMateUI.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.SubwayMateUI.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

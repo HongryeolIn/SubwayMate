@@ -19,6 +19,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.subwaymateui.Notifications;
 import com.example.subwaymateui.R;
 import com.example.subwaymateui.Settings;
 import com.example.subwaymateui.databinding.FragmentHomeBinding;
@@ -54,8 +55,9 @@ public class HomeFragment extends Fragment {
         announcement_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 //HOME FRAGMENT에서 공지사항 IMAGEBUTTON을 눌렀을때 발생하는 이벤트 처리구역
+                Intent intent = new Intent(getActivity(), Notifications.class);
+                startActivity(intent);
                 Log.d("MAIN_ANNOUNCEMENT", "onClick: 공지사항");
             }
         });

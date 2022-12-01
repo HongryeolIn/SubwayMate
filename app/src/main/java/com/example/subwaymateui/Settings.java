@@ -17,6 +17,7 @@ public class Settings extends AppCompatActivity {
     private ImageButton settings_back_button;
     private Button settings_update_button;
     private Button settings_language_button;
+    private Button settings_excludeRoute_button;
     private RadioGroup settings_theme_radioGroup;
 
     @Override
@@ -64,7 +65,16 @@ public class Settings extends AppCompatActivity {
         settings_update_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(getApplicationContext(), Settings_Update.class);
+                startActivity(intent);
+            }
+        });
+        settings_excludeRoute_button = (Button) findViewById(R.id.settings_excludeRoute_button);
+        settings_excludeRoute_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Settings_ExcludeRoute.class);
+                startActivity(intent);
             }
         });
     }
