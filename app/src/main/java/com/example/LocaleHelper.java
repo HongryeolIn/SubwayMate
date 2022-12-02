@@ -14,7 +14,7 @@ public class LocaleHelper extends Application {
     public static String FILE_NAME = "Language_State";
 
 
-    public static SharedPreferences preferences;
+    public static SharedPreferences sharedPreferences;
     public static SharedPreferences.Editor editor;
 
 
@@ -29,7 +29,7 @@ public class LocaleHelper extends Application {
     }
 
     private static void persist(Context context, String language) {
-        editor = preferences.edit();
+        editor = sharedPreferences.edit();
         editor.putString(SELECTED_LANGUAGE, language);
         editor.apply();
     }

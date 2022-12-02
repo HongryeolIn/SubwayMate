@@ -16,6 +16,9 @@ public class ThemeUtil {
 
     private static final String TAG = "ThemeUtil";
 
+    private static SharedPreferences sharedPreferences;
+    private static SharedPreferences.Editor editor;
+
     public static void applyTheme(String themeColor) {
         switch (themeColor) {
             case LIGHT_MODE:
@@ -31,17 +34,15 @@ public class ThemeUtil {
     }
 
     public static void modSave(Context context, String select_mod){
-        SharedPreferences sp;
-        sp = context.getSharedPreferences("mod",context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = sp.edit();
+        sharedPreferences = context.getSharedPreferences("mod",context.MODE_PRIVATE);
+        editor = sharedPreferences.edit();
         editor.putString("mod",select_mod);
         editor.apply();
     }
 
     public static String modLoad(Context context) {
-        SharedPreferences sp;
-        sp = context.getSharedPreferences("mod",context.MODE_PRIVATE);
-        String load_mod = sp.getString("mod","light");
+        sharedPreferences = context.getSharedPreferences("mod",context.MODE_PRIVATE);
+        String load_mod = sharedPreferences.getString("mod","light");
         return load_mod;
     }
 }

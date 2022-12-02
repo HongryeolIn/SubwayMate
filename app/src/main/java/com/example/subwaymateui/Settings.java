@@ -3,6 +3,7 @@ package com.example.subwaymateui;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
@@ -28,15 +29,18 @@ public class Settings extends AppCompatActivity {
         setTheme(R.style.Theme_SubwayMateUI);
 
         settings_theme_radioGroup = findViewById(R.id.settings_theme_radioGroup);
+        settings_theme_radioGroup.check(UpdateState("SETTINGS_THEME_RADIO_STATE"));
         settings_theme_radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 switch (checkedId) {
                     case R.id.settings_theme_dark:
+                        RadioStateSave("SETTINGS_THEME_RADIO_STATE", R.id.settings_theme_dark);
                         ThemeUtil.applyTheme(ThemeUtil.DARK_MODE);
                         ThemeUtil.modSave(getApplicationContext(),ThemeUtil.DARK_MODE);
                         break;
                     case R.id.settings_theme_light:
+                        RadioStateSave("SETTINGS_THEME_RADIO_STATE", R.id.settings_theme_light);
                         ThemeUtil.applyTheme(ThemeUtil.LIGHT_MODE);
                         ThemeUtil.modSave(getApplicationContext(),ThemeUtil.LIGHT_MODE);
                         break;
@@ -77,6 +81,18 @@ public class Settings extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    private void RadioStateSave(String key, int value) {
+        SharedPreferences sharedPreferences = getSharedPreferences("theme_radio_state", MODE_PRIVATE); // "radio_state"라는 이름으로 파일생성, MODE_PRIVATE는 자기 앱에서만 사용하도록 설정하는 기본값
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt(key, value); // 키와 값을 INT로 저장
+        editor.apply(); // 실제로 저장
+    }
+
+    private int UpdateState(String key) {
+        SharedPreferences sharedPreferences = getSharedPreferences("theme_radio_state", MODE_PRIVATE);
+        return sharedPreferences.getInt(key, R.id.settings_theme_light);
     }
 
     @Override

@@ -3,7 +3,6 @@ package com.example.subwaymateui;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.example.LocaleHelper;
 import com.example.ThemeUtil;
@@ -28,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
         ThemeUtil.applyTheme(ThemeUtil.modLoad(MainActivity.this));
 
-        LocaleHelper.preferences = getSharedPreferences(LocaleHelper.FILE_NAME, Activity.MODE_PRIVATE);
-        LocaleHelper.setLocale(MainActivity.this, LocaleHelper.preferences.getString(LocaleHelper.SELECTED_LANGUAGE, "ko"));
+        LocaleHelper.sharedPreferences = getSharedPreferences(LocaleHelper.FILE_NAME, Activity.MODE_PRIVATE);
+        LocaleHelper.setLocale(MainActivity.this, LocaleHelper.sharedPreferences.getString(LocaleHelper.SELECTED_LANGUAGE, "ko"));
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
