@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/settings_background"
     tools:context=".Settings_ExcludeRoute">
 
     <ImageButton
@@ -29,4 +30,209 @@
         app:layout_constraintBottom_toBottomOf="@+id/settings_excludeRoute_back_button"
         app:layout_constraintStart_toEndOf="@+id/settings_excludeRoute_back_button"
         app:layout_constraintTop_toTopOf="@+id/settings_excludeRoute_back_button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="224dp"
+        android:background="@drawable/round_layout"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_excludeRoute_back_button">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <CheckBox
+            android:id="@+id/settings_excludeRoute_line1_checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="5dp"
+            android:layoutDirection="rtl"
+            android:paddingHorizontal="5dp"
+            android:text="CheckBox"
+            android:textAlignment="textStart"
+            android:textColor="@color/text"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="10dp"
+            app:srcCompat="@drawable/space" />
+
+        <CheckBox
+            android:id="@+id/settings_excludeRoute_line2_checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="5dp"
+            android:layoutDirection="rtl"
+            android:paddingHorizontal="5dp"
+            android:text="CheckBox"
+            android:textAlignment="textStart"
+            android:textColor="@color/text"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="10dp"
+            app:srcCompat="@drawable/space" />
+
+        <CheckBox
+            android:id="@+id/settings_excludeRoute_line3_checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="5dp"
+            android:layoutDirection="rtl"
+            android:paddingHorizontal="5dp"
+            android:text="CheckBox"
+            android:textAlignment="textStart"
+            android:textColor="@color/text"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="10dp"
+            app:srcCompat="@drawable/space" />
+
+        <CheckBox
+            android:id="@+id/settings_excludeRoute_line4_checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="5dp"
+            android:layoutDirection="rtl"
+            android:paddingHorizontal="5dp"
+            android:text="CheckBox"
+            android:textAlignment="textStart"
+            android:textColor="@color/text"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="10dp"
+            app:srcCompat="@drawable/space" />
+
+        <CheckBox
+            android:id="@+id/settings_excludeRoute_line5_checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="5dp"
+            android:layoutDirection="rtl"
+            android:paddingHorizontal="5dp"
+            android:text="CheckBox"
+            android:textAlignment="textStart"
+            android:textColor="@color/text"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="10dp"
+            app:srcCompat="@drawable/space" />
+
+        <CheckBox
+            android:id="@+id/settings_excludeRoute_line6_checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="5dp"
+            android:layoutDirection="rtl"
+            android:paddingHorizontal="5dp"
+            android:text="CheckBox"
+            android:textAlignment="textStart"
+            android:textColor="@color/text"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="10dp"
+            app:srcCompat="@drawable/space" />
+
+        <CheckBox
+            android:id="@+id/settings_excludeRoute_line7_checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="5dp"
+            android:layoutDirection="rtl"
+            android:paddingHorizontal="5dp"
+            android:text="CheckBox"
+            android:textAlignment="textStart"
+            android:textColor="@color/text"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="10dp"
+            app:srcCompat="@drawable/space" />
+
+        <CheckBox
+            android:id="@+id/settings_excludeRoute_line8_checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="5dp"
+            android:layoutDirection="rtl"
+            android:paddingHorizontal="5dp"
+            android:text="CheckBox"
+            android:textAlignment="textStart"
+            android:textColor="@color/text"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginHorizontal="10dp"
+            app:srcCompat="@drawable/space" />
+
+        <CheckBox
+            android:id="@+id/settings_excludeRoute_line9_checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="5dp"
+            android:layoutDirection="rtl"
+            android:paddingHorizontal="5dp"
+            android:text="CheckBox"
+            android:textAlignment="textStart"
+            android:textColor="@color/text"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
