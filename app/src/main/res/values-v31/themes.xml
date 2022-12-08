@@ -17,8 +17,8 @@
         <item name="android:textColor">#000000</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowSplashScreenBackground">@color/main_color</item>
-        <item name="android:windowSplashScreenAnimatedIcon">@drawable/station</item>
-        <item name="android:windowSplashScreenBrandingImage">@mipmap/ic_launcher_round</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/window_splash_screen_animated_icon</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/window_splash_screen_branding_image</item>
         <item name="android:windowSplashScreenAnimationDuration">500</item>
         <item name="colorControlHighlight">#A6A6A6</item>
     </style>

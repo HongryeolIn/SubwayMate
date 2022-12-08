@@ -70,7 +70,7 @@
             android:layout_height="276dp"
             android:padding="2dp"
             android:layout_margin="5dp"
-            android:src="@drawable/station" />
+            android:src="@drawable/home_fragment_station_image" />
 
         <WebView
             android:id="@+id/fragment_home_weather_webView"
